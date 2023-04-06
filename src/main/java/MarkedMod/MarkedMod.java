@@ -154,8 +154,11 @@ public class MarkedMod
     public void receiveEditCards() {
         logger.info("Adding cards");
 
-        BaseMod.addCard(new Acupuncture());
-        BaseMod.addCard(new FirstStrike());
+
+// ZOEY: THESE CARDS DISABLED. THEY WILL NOT APPEAR IN GAME. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//        BaseMod.addCard(new Acupuncture());
+//        BaseMod.addCard(new FirstStrike());
+
         BaseMod.addCard(new GentlePulse());
         BaseMod.addCard(new OneThousandNeedles());
         BaseMod.addCard(new PinPointDefense());
@@ -166,8 +169,9 @@ public class MarkedMod
 
         BaseMod.addCard(new Needle());
 
-        UnlockTracker.unlockCard(Acupuncture.ID);
-        UnlockTracker.unlockCard(FirstStrike.ID);
+//        UnlockTracker.unlockCard(Acupuncture.ID);
+//        UnlockTracker.unlockCard(FirstStrike.ID);
+
         UnlockTracker.unlockCard(GentlePulse.ID);
         UnlockTracker.unlockCard(OneThousandNeedles.ID);
         UnlockTracker.unlockCard(PinPointDefense.ID);

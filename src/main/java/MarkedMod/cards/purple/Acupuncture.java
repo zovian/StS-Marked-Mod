@@ -15,6 +15,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static MarkedMod.MarkedMod.makeCardPath;
 
+// ZOEY: DISABLED. WILL NOT APPEAR IN GAME. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 // ZOEY: Rework or remove
 // ZOEY: Mimic Cloak and Dagger?
 

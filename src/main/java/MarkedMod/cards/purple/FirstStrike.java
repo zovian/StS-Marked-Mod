@@ -10,6 +10,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.watcher.MarkPower;
 import com.megacrit.cardcrawl.vfx.combat.PressurePointEffect;
 
+// ZOEY: DISABLED. WILL NOT APPEAR IN GAME. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 // ZOEY: Remove or rework
 // ZOEY: Draw a card?
 
