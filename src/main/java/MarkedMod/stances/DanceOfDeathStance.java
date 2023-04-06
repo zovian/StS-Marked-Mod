@@ -96,7 +96,7 @@ public class DanceOfDeathStance
         AbstractDungeon.actionManager.addToBottom(new RemoveHalfBlockAction(AbstractDungeon.player, AbstractDungeon.player));
     }
 
-
+	// ZOEY: Feels inconsistent with mark premise; not often dealing attack damage; using skills instead
     @Override
     public void wasHPLost(DamageInfo info, int damageAmount, AbstractCreature target) {
         AbstractCreature source = info.owner;

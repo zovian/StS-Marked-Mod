@@ -15,6 +15,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static MarkedMod.MarkedMod.makeCardPath;
 
+// ZOEY: Rework or remove
+// ZOEY: Mimic Cloak and Dagger?
 
 public class Acupuncture extends AbstractMarkedCard {
 

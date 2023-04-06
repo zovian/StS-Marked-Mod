@@ -9,6 +9,9 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import static MarkedMod.MarkedMod.makeCardPath;
 
+// ZOEY: Retains by default, cost 1; upgrade reduces cost to 0
+// ZOEY: OR retains by default, cost 0; upgrade draws a card
+
 public class GentlePulse
         extends AbstractMarkedCard {
 
