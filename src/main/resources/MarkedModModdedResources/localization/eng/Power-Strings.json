@@ -1,13 +1,13 @@
 {
-"MarkedMod:ApplyMarkOnAttackedPower": {
+"MarkedModModded:ApplyMarkOnAttackedPower": {
         "NAME": "Pin Point Defense",
         "DESCRIPTIONS": ["Gian #b", " #yBlock whenever you apply Mark."]
 },
-"MarkedMod:GainBlockOnApplyMarkPower": {
+"MarkedModModded:GainBlockOnApplyMarkPower": {
         "NAME": "Pin Point Counter",
         "DESCRIPTIONS": ["Whenever an enemy attacks you, apply #b", " #yMark."]
 },
-"MarkedMod:GracefulMovementsPower": {
+"MarkedModModded:GracefulMovementsPower": {
         "NAME": "Graceful Movements",
         "DESCRIPTIONS": ["At the start of your turn, add #b", " #yNeedle to your hand.", " #yNeedles to your hand."]
 }
