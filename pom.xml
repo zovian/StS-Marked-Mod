@@ -2,13 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>markedmod</groupId>
-    <artifactId>MarkedMod</artifactId>
-    <name>Marked Mod</name>
-    <version>1.1.2</version>
-    <description>Adds cards, relics, a potion, and even a new stance to the Watcher, all relating to the new \"Mark\"
-        mechanic.
+    <groupId>markedmodmodded</groupId>
+    <artifactId>MarkedModModded</artifactId>
+    <name>Marked Mod Modded</name>
+    <version>0.0.0</version>
+    <description>Zoey went and bonked at the original Marked Mod and took a long time but maybe now she has her own version
     </description>
+	
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
