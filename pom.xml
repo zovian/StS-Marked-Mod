@@ -49,13 +49,17 @@
             <scope>system</scope>
             <systemPath>${Workshop.path}/1609158507/StSLib.jar</systemPath>
         </dependency>
-        <dependency>
+
+<!-- ZOEY: Not using InfiniteSpire mod    
+		<dependency>
             <groupId>infinitespire</groupId>
             <artifactId>InfiniteSpire</artifactId>
             <version>0.22.0</version>
             <scope>system</scope>
             <systemPath>${Workshop.path}/1610128058/InfiniteSpire.jar</systemPath>
-        </dependency>
+        </dependency> 
+-->
+
     </dependencies>
 
 
