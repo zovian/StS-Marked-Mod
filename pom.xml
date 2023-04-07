@@ -5,8 +5,8 @@
     <groupId>markedmodmodded</groupId>
     <artifactId>MarkedModModded</artifactId>
     <name>Marked Mod Modded</name>
-    <version>0.0.0</version>
-    <description>Zoey went and bonked at the original Marked Mod and took a long time but maybe now she has her own version
+    <version>0.1.0</version>
+    <description>Zoey's version of MarkedMod. Removes Acupuncture & First Strike, changes Gentle Pulse to always retain and when upgraded, draw a card.
     </description>
 	
 
