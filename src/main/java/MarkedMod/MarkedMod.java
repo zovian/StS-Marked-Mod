@@ -2,7 +2,13 @@ package MarkedMod;
 
 import MarkedMod.cards.colorless.Needle;
 import MarkedMod.cards.purple.*;
+
+/* ZOEY: Not using InfiniteSpire, do not import (missing dependence errors)
+
 import MarkedMod.crossover.InfiniteSpire;
+
+*/ 
+
 import MarkedMod.potions.watcher.BlackLotusJuice;
 import MarkedMod.relics.AcupunctureKit;
 import MarkedMod.stances.DanceOfDeathStance;
