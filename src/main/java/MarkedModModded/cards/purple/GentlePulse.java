@@ -34,6 +34,7 @@ public class GentlePulse
     public GentlePulse() {
         super(ID, IMG, COST, TYPE, RARITY, TARGET);
         this.exhaust = true;
+        this.selfRetain = true;
     }
 
 
@@ -41,7 +42,7 @@ public class GentlePulse
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            this.selfRetain = true;
+
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }
