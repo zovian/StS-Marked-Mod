@@ -1,6 +1,7 @@
 package MarkedModModded.cards.purple;
 
 import MarkedModModded.MarkedModModded;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import MarkedModModded.abstracts.AbstractMarkedCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -48,5 +49,11 @@ public class GentlePulse
 
 
     @Override
-    public void use(AbstractPlayer player, AbstractMonster monster) { triggerMarks(); }
+    public void use(AbstractPlayer player, AbstractMonster monster) {
+        triggerMarks();
+
+        if (upgraded) {
+            this.addToBot(new DrawCardAction(player, 1));
+        }
+    }
 }
