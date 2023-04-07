@@ -252,7 +252,7 @@ public class MarkedModModded
                         break;
                     }
                 }
-rt
+
                 BaseMod.addKeyword(getModID().toLowerCase(), keyword.PROPER_NAME, keyword.NAMES, description);
             }
         }
